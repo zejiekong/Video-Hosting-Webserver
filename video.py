@@ -11,8 +11,7 @@ file_list = []
 link_list = []
 
 # Token Generated from dropbox
-f = open("/home/zejie123/webapp/video-server/static/token.json")
-TOKEN = json.load(f)["token"]
+#TOKEN = ""
   
 # Establish connection
 def connect_to_dropbox():
