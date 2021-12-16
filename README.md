@@ -1,5 +1,5 @@
 # Video-Hosting-Webserver
-A flask webserver to host videos saved in dropbox using dropbox SDK.
+A flask webserver to host videos saved in dropbox using dropbox SDK. List of dependecies used can be found in requirements.txt.
 
 Dropbox SDK : https://dropbox-sdk-python.readthedocs.io/en/latest/
 
