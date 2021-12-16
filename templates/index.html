@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{ background-color: purple;}
+            .vid{display: block; margin: auto;width: 320;height:240}
+        </style>
+    </head>
+    <body id="body">
+        <script>
+            var link = {{vid_link|safe}};
+            for(i=0; i<link.length;i++){
+                var vid = document.createElement("video");
+                vid.className = "vid";
+                vid.controls = true;
+                vid.src = link[i]
+                document.getElementById('body').appendChild(vid);
+            }
+        </script>
+    </body>
+</html>
