@@ -6,6 +6,7 @@ Dropbox SDK : https://dropbox-sdk-python.readthedocs.io/en/latest/
 Requirements:
 
 Version : Python 3.8
+
 Dropbox account (with Token)
 
 1.) Clone repo to machine
@@ -18,7 +19,7 @@ Dropbox account (with Token)
 # Token Generated from dropbox
 #TOKEN = ""
 ```
-3.) Execute
+3.) Execute (for Unix)
 - On command line, go to repo directory
 - ``` source venv/bin/activate```
 - ``` python3 __init__.py ```
